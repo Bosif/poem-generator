@@ -4,37 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your topic of choice"
-          required
-          autofocus
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Your poem will show up here
-        <br />
-        "Roses are red..."
-      </div>
-    </main>
-    <footer>
-      This project was coded by Bo Rutjes and is
-      <a href="https://github.com/Bosif/poem-generator" target="blank"
-        >open-sourced on Github</a
-      >
-      and hosted on Netlify
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter your topic of choice"
+            required
+            autofocus
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          Your poem will show up here
+          <br />
+          "Roses are red..."
+        </div>
+      </main>
+      <footer>
+        This project was coded by Bo Rutjes and is
+        <a href="https://github.com/Bosif/poem-generator" target="blank"
+          >open-sourced on Github</a
+        >
+        and hosted on Netlify
+      </footer>
+    </div>
 
     <script src="src/app.js"></script>
   </body>
