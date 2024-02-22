@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link href="src/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +20,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator">
           <input
             type="text"
             placeholder="Enter your topic of choice"
@@ -29,11 +30,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Your poem will show up here
-          <br />
-          "Roses are red..."
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This project was coded by Bo Rutjes and is
