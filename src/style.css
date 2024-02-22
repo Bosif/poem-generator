@@ -57,6 +57,7 @@ form {
 
 .submit-button:hover {
   cursor: pointer;
+  background-color: #8f84af;
 }
 
 .poem {
