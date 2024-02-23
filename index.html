@@ -21,18 +21,21 @@
       </header>
 
       <main>
-        <form id="poem-generator">
-          <input
-            type="text"
-            placeholder="Enter your topic of choice"
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator">
+            <input
+              type="text"
+              placeholder="Enter your topic of choice"
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Roses, Ocean or Love</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project was coded by Bo Rutjes and is
